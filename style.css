@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo */
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 450px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: center; /* Center the content inside the nav */
+    border-radius: 10px; /* Rounded corners */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    flex: none; /* Do not stretch menu items */
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333; /* Slightly darker hover effect */
+}
+
+/* Full-width Black Box Stretch */
+header {
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Promotional Banner */
+.promo-banner {
+    background: url("https://img.freepik.com/premium-photo/ultimate-asian-chilly-chicken-fiery-thai-chilli-chicken-curry-169-aspect-ratio_1034537-22360.jpg") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Content Columns */
+.content-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    background-color: #ff7c9660;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.column h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.column a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s;
+}
+
+.column a:hover {
+    color: #004d99;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    color: #777;
+}
